@@ -1,0 +1,21 @@
+18:37:06 **** Incremental Build of configuration Debug for project CG2028AssignS2AY2021 ****
+make all 
+Building file: ../src/iir.s
+Invoking: MCU Assembler
+arm-none-eabi-gcc -c -x assembler-with-cpp -DDEBUG -D__CODE_RED -D__REDLIB__ -g3 -mcpu=cortex-m3 -mthumb -o"src/iir.o" "../src/iir.s"
+Finished building: ../src/iir.s
+ 
+Building target: CG2028AssignS2AY2021.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"C:\Users\wamik\Documents\Notes Y2S2\CG2028\Labs and assignment\CG2028-assignment\Lib_CMSISv1p30_LPC17xx\Debug" -Xlinker --gc-sections -Xlinker -Map=CG2028AssignS2AY2021.map -mcpu=cortex-m3 -mthumb -T "CG2028AssignS2AY2021_Debug.ld" -o"CG2028AssignS2AY2021.axf"  ./src/cr_startup_lpc17.o ./src/iir.o ./src/main.o   -lCMSISv1p30_LPC17xx
+Finished building target: CG2028AssignS2AY2021.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size CG2028AssignS2AY2021.axf; # arm-none-eabi-objcopy -O ihex CG2028AssignS2AY2021.axf CG2028AssignS2AY2021.hex ;
+   text	   data	    bss	    dec	    hex	filename
+  12592	      0	    496	  13088	   3320	CG2028AssignS2AY2021.axf
+ 
+
+18:37:07 Build Finished (took 1s.257ms)
+
