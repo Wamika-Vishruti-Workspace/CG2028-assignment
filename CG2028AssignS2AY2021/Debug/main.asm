@@ -456,17 +456,17 @@
  377              	.Letext0:
 DEFINED SYMBOLS
                             *ABS*:00000000 main.c
-C:\Users\wamik\AppData\Local\Temp\ccU5qYXm.s:19     .rodata:00000000 $d
-C:\Users\wamik\AppData\Local\Temp\ccU5qYXm.s:20     .rodata:00000000 .LC1
-C:\Users\wamik\AppData\Local\Temp\ccU5qYXm.s:23     .rodata:0000001c .LC2
-C:\Users\wamik\AppData\Local\Temp\ccU5qYXm.s:26     .rodata:00000038 .LC0
-C:\Users\wamik\AppData\Local\Temp\ccU5qYXm.s:40     .text.main:00000000 $t
-C:\Users\wamik\AppData\Local\Temp\ccU5qYXm.s:45     .text.main:00000000 main
-C:\Users\wamik\AppData\Local\Temp\ccU5qYXm.s:229    .text.iir_c:00000000 iir_c
-C:\Users\wamik\AppData\Local\Temp\ccU5qYXm.s:224    .text.iir_c:00000000 $t
-C:\Users\wamik\AppData\Local\Temp\ccU5qYXm.s:371    .bss:00000000 x_store.3834
-C:\Users\wamik\AppData\Local\Temp\ccU5qYXm.s:374    .bss:00000028 y_store.3835
-C:\Users\wamik\AppData\Local\Temp\ccU5qYXm.s:370    .bss:00000000 $d
+C:\Users\wamik\AppData\Local\Temp\ccI6jA6h.s:19     .rodata:00000000 $d
+C:\Users\wamik\AppData\Local\Temp\ccI6jA6h.s:20     .rodata:00000000 .LC1
+C:\Users\wamik\AppData\Local\Temp\ccI6jA6h.s:23     .rodata:0000001c .LC2
+C:\Users\wamik\AppData\Local\Temp\ccI6jA6h.s:26     .rodata:00000038 .LC0
+C:\Users\wamik\AppData\Local\Temp\ccI6jA6h.s:40     .text.main:00000000 $t
+C:\Users\wamik\AppData\Local\Temp\ccI6jA6h.s:45     .text.main:00000000 main
+C:\Users\wamik\AppData\Local\Temp\ccI6jA6h.s:229    .text.iir_c:00000000 iir_c
+C:\Users\wamik\AppData\Local\Temp\ccI6jA6h.s:224    .text.iir_c:00000000 $t
+C:\Users\wamik\AppData\Local\Temp\ccI6jA6h.s:371    .bss:00000000 x_store.3834
+C:\Users\wamik\AppData\Local\Temp\ccI6jA6h.s:374    .bss:00000028 y_store.3835
+C:\Users\wamik\AppData\Local\Temp\ccI6jA6h.s:370    .bss:00000000 $d
                      .debug_frame:00000010 $d
 
 UNDEFINED SYMBOLS

@@ -41,8 +41,8 @@ loop:
 	LDR R10, [R2], #4 //a[j+1], j++
 	LDR R12, [R7], #4 //y_store[j], j++
 	MLS R8, R10, R12, R8 //b[j+1]*x_store[j]-a[j+1]*x_store[j]
-	SDIV R8, R8, R5 // R8/a[0]
-	ADD R4, R8 //y_n+=R8
+	SDIV R8, R8, R5 // R9/a[0]
+	ADD R4, R8 //y_n+=R9
 	SUBS R0, #1
 	BGT loop
 

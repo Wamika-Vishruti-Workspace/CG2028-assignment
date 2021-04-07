@@ -1689,3 +1689,58 @@ arm-none-eabi-size CG2028AssignS2AY2021.axf; # arm-none-eabi-objcopy -O ihex CG2
    text	   data	    bss	    dec	    hex	filename
   12592	      0	    496	  13088	   3320	CG2028AssignS2AY2021.axf
  
+19:02:05 **** Incremental Build of configuration Debug for project Lib_CMSISv1p30_LPC17xx ****
+make all 
+make: Nothing to be done for `all'.
+19:02:58 **** Incremental Build of configuration Debug for project Lib_CMSISv1p30_LPC17xx ****
+make all 
+make: Nothing to be done for `all'.
+19:03:02 **** Build of configuration Debug for project CG2028AssignS2AY2021 ****
+make all 
+Building file: ../src/iir.s
+Invoking: MCU Assembler
+arm-none-eabi-gcc -c -x assembler-with-cpp -DDEBUG -D__CODE_RED -D__REDLIB__ -g3 -mcpu=cortex-m3 -mthumb -o"src/iir.o" "../src/iir.s"
+Finished building: ../src/iir.s
+ 
+Building file: ../src/main.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -D__REDLIB__ -D__USE_CMSIS=CMSISv1p30_LPC17xx -I"C:\Users\wamik\Documents\Notes Y2S2\CG2028\Labs and assignment\CG2028-assignment\Lib_CMSISv1p30_LPC17xx\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -Wa,-ahlnds=main.asm -mcpu=cortex-m3 -mthumb -MMD -MP -MF"src/main.d" -MT"src/main.d" -o"src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: CG2028AssignS2AY2021.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"C:\Users\wamik\Documents\Notes Y2S2\CG2028\Labs and assignment\CG2028-assignment\Lib_CMSISv1p30_LPC17xx\Debug" -Xlinker --gc-sections -Xlinker -Map=CG2028AssignS2AY2021.map -mcpu=cortex-m3 -mthumb -T "CG2028AssignS2AY2021_Debug.ld" -o"CG2028AssignS2AY2021.axf"  ./src/cr_startup_lpc17.o ./src/iir.o ./src/main.o   -lCMSISv1p30_LPC17xx
+Finished building target: CG2028AssignS2AY2021.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size CG2028AssignS2AY2021.axf; # arm-none-eabi-objcopy -O ihex CG2028AssignS2AY2021.axf CG2028AssignS2AY2021.hex ;
+   text	   data	    bss	    dec	    hex	filename
+  12672	      0	    528	  13200	   3390	CG2028AssignS2AY2021.axf
+ 
+11:49:34 **** Build of configuration Debug for project Lib_CMSISv1p30_LPC17xx ****
+make all 
+make: Nothing to be done for `all'.
+11:49:37 **** Build of configuration Debug for project CG2028AssignS2AY2021 ****
+make all 
+Building file: ../src/iir.s
+Invoking: MCU Assembler
+arm-none-eabi-gcc -c -x assembler-with-cpp -DDEBUG -D__CODE_RED -D__REDLIB__ -g3 -mcpu=cortex-m3 -mthumb -o"src/iir.o" "../src/iir.s"
+Finished building: ../src/iir.s
+ 
+Building file: ../src/main.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -D__REDLIB__ -D__USE_CMSIS=CMSISv1p30_LPC17xx -I"C:\Users\wamik\Documents\Notes Y2S2\CG2028\Labs and assignment\CG2028-assignment\Lib_CMSISv1p30_LPC17xx\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -Wa,-ahlnds=main.asm -mcpu=cortex-m3 -mthumb -MMD -MP -MF"src/main.d" -MT"src/main.d" -o"src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: CG2028AssignS2AY2021.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"C:\Users\wamik\Documents\Notes Y2S2\CG2028\Labs and assignment\CG2028-assignment\Lib_CMSISv1p30_LPC17xx\Debug" -Xlinker --gc-sections -Xlinker -Map=CG2028AssignS2AY2021.map -mcpu=cortex-m3 -mthumb -T "CG2028AssignS2AY2021_Debug.ld" -o"CG2028AssignS2AY2021.axf"  ./src/cr_startup_lpc17.o ./src/iir.o ./src/main.o   -lCMSISv1p30_LPC17xx
+Finished building target: CG2028AssignS2AY2021.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size CG2028AssignS2AY2021.axf; # arm-none-eabi-objcopy -O ihex CG2028AssignS2AY2021.axf CG2028AssignS2AY2021.hex ;
+   text	   data	    bss	    dec	    hex	filename
+  12584	      0	    496	  13080	   3318	CG2028AssignS2AY2021.axf
+ 
